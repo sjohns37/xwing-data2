@@ -252,6 +252,7 @@
         "title": "Mag-Pulse Warheads",
         "type": "Missile",
         "slots": ["Missile"],
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 651,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png"
