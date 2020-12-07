@@ -875,15 +875,21 @@
   {
     "name": "Slave I",
     "limited": 1,
-    "xws": "slavei-swz82",
-    "hyperspace": false,
+    "xws": "slavei-separatist",
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
         "title": "Slave I",
         "type": "Title",
         "slots": ["Title"]
+        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
       }
-    ]
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "ships": ["firesprayclasspatrolcraft"] }
+    ],
   }
 ]
